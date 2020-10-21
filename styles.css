@@ -2,13 +2,21 @@
 	margin: 0;
 	padding: 10px;
   font-size: 28px;
-
+  font-family: poppins;
+  color: #000000/RGB(0,0,0) ;
  }
  /* For mobile phones: */
 [class*="col-"] {
  width: 100%;
 }
-
+h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	 ;
+}
+h2{
+	font-family: abril+fatface;
+	color: #f6c003/RGB(246,192,3)
+}
 @media only screen and (min-width: 768px) {
  /* For desktop: */
  .col-1 {width: 8.33%;}
@@ -42,6 +50,8 @@
   font-size: 28px;
   font-weight: bolder;
   padding-bottom: 0;
+  font-family: poppins;
+  color: #000000/RGB(0,0,0) ;
 }
 #intro2{
   font-size: 25px;
