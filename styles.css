@@ -1,5 +1,4 @@
  body {
-	margin: 0;
 	padding: 10px;
   font-size: 28px;
   font-family: poppins;
@@ -32,6 +31,8 @@ h2{
  .col-11 {width: 91.66%;}
  .col-12 {width: 100%;}
 }
+
+
  #background
 {
 	 left: 0px;
@@ -40,18 +41,38 @@ h2{
 	 margin-left: auto;
 	 margin-right: auto;
 	 width: 800px;
-
-	 overflow: hidden;
 	 z-index:0;
-
 	}
 #title{
-  padding-top: 50px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
   font-size: 28px;
   font-weight: bolder;
   padding-bottom: 0;
   font-family: poppins;
   color: #000000/RGB(0,0,0) ;
+
+  padding-top: 12px;
+}
+#title2{
+  padding-top: 0;
+  position: absolute;
+  background-color:#000080;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+#start{
+  position: relative;
+
+}
+
+#image2 {
+  position: absolute;
+  top: 20px;
+  right: 49px;
+
 }
 #intro2{
   font-size: 25px;
@@ -61,4 +82,6 @@ h2{
 #intro3{
   background-color:#191970;
   color:white;
+   padding:20px;
+
 }
