@@ -28,7 +28,9 @@ h2,#intro2{
  .col-12 {width: 100%;}
 }
 
-
+p{
+  font-weight:30px
+}
 
 #background
 {
@@ -74,11 +76,11 @@ h2,#intro2{
 }
 @media only screen and (max-width: 850px) {
     #background{
-      padding:10px;
+      padding:5px;
       width:100%;
     }
-    #intro3,#text3,#intro2{
-      font:18px;
+    #intro3,#text3,#text4{
+      font-size:18px;
     }
     image{
       width:100%;
